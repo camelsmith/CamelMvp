@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <include layout="@layout/support_v7_toolbar"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MVP骆驼框架合集"
+         />
+
+    <Button
+        android:id="@+id/activity_main_start_fragment_activity_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onXmlClick"
+        android:text="附带Fragment的Activity"/>
+
+    <Button
+        android:id="@+id/activity_main_start_toolbar_fragment_activity_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onXmlClick"
+        android:text="附带ToolbarFragment的Activity"/>
+
+    <Button
+        android:id="@+id/activity_main_start_webView_activity_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onXmlClick"
+        android:text="带Toolbar的WebViewActivity"/>
+
+    <Button
+        android:id="@+id/activity_main_start_fragment_webView_activity_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onXmlClick"
+        android:text="附带WebView的Fragment的Activity"/>
+
+</LinearLayout>
