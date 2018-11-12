@@ -1,0 +1,2 @@
+一个MVP框架的基础类库。包含了Activity、Fragment、DialogFragment等基类组件。
+并在此基类的基础上扩展了多个常用场景的基类，如带Toolbar的Activity、Fragment；带WebView的Activity、Fragment。
